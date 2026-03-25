@@ -6,7 +6,7 @@ Meta.Arch=x86_64
 Meta.Author=Xen0m
 Meta.URL=https://doc.maniaplanet.com/dedicated-server/getting-started
 Meta.DisplayImageSource=
-Meta.EndpointURIFormat=maniaplanet://#join/{ip}:{GenericModule.App.Ports.$GamePort}@{{TitleId}}
+Meta.EndpointURIFormat=maniaplanet://#join/{ip}:{GenericModule.App.Ports.$GamePort}@{{$TitleId}}
 Meta.ConfigManifest=shootmania-eliteconfig.json
 Meta.MetaConfigManifest=shootmania-elitemetaconfig.json
 Meta.ConfigRoot=shootmania-elite.kvp
@@ -37,7 +37,7 @@ App.ExecutableLinux=./ManiaPlanetServer
 App.WorkingDir=.
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=/nodaemon /title={{TitleId}} /dedicated_cfg={{DedicatedConfigPath}} /game_settings={{MatchSettingsPath}} {{CustomArgs}}
+App.CommandLineArgs=/nodaemon /title={{$TitleId}} /dedicated_cfg={{$DedicatedConfigPath}} /game_settings={{$MatchSettingsPath}} {{$CustomArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={}
