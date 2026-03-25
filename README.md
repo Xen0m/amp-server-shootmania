@@ -14,7 +14,7 @@ What it does not solve automatically:
 
 ## Files
 
-- `manifest.json`: custom repository manifest for AMP
+- `AMPMetadata.json`: repository metadata file used by AMPTemplates-style repositories
 - `shootmania-elite.kvp`: main GenericModule template
 - `shootmania-eliteconfig.json`: settings exposed in AMP
 - `shootmania-elitemetaconfig.json`: metaconfig manifest placeholder
@@ -26,10 +26,7 @@ What it does not solve automatically:
 ## Before importing into AMP
 
 1. Put these files in their own GitHub repository.
-2. Edit `manifest.json`:
-   - replace `YOUR_GITHUB_REPO_URL`
-   - replace `YOUR_GITHUB_REPO_GIT_URL`
-3. Edit `shootmania-eliteupdates.json` if you want AMP to fetch bootstrap files directly from your raw GitHub URLs.
+2. Edit `shootmania-eliteupdates.json` if you want AMP to fetch bootstrap files directly from your raw GitHub URLs.
    - This package currently installs the server and title packs only.
    - The two bootstrap files are included here for manual copy into the instance if you prefer.
 
