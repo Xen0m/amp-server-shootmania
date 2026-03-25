@@ -4,8 +4,8 @@
     "Xen0m",
     "OpenAI Codex"
   ],
-  "origin": "YOUR_GITHUB_REPO_GIT_URL",
-  "url": "YOUR_GITHUB_REPO_URL",
+  "origin": "https://github.com/Xen0m/amp-server-shootmania.git",
+  "url": "https://github.com/Xen0m/amp-server-shootmania",
   "imagefile": "",
   "prefix": "xen0m-",
   "repotype": "AppTemplates"
