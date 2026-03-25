@@ -1,0 +1,85 @@
+[
+  {
+    "UpdateStageName": "ShootMania Dedicated Server Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "http://files.v04.maniaplanet.com/server/ManiaplanetServer_Latest.zip",
+    "UpdateSourceTarget": "{{$FullRootDir}}",
+    "UpdateSourceArgs": "ManiaPlanetServer_Latest.zip",
+    "UnzipUpdateSource": true,
+    "OverwriteExistingFiles": true,
+    "DeleteAfterExtract": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create UserData Packs Directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullRootDir}}UserData/Packs",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Packs Directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullRootDir}}Packs",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Dedicated Config Directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullRootDir}}UserData/Config",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create MatchSettings Directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullRootDir}}UserData/Maps/MatchSettings",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Elite Maps Directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullRootDir}}UserData/Maps/My Maps/Elite",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download SMStorm Title Pack To UserData",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://v4.live.maniaplanet.com/ingame/public/titles/download/SMStorm@nadeo.Title.Pack.gbx",
+    "UpdateSourceTarget": "{{$FullRootDir}}UserData/Packs",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download SMStorm Title Pack To Packs",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://v4.live.maniaplanet.com/ingame/public/titles/download/SMStorm@nadeo.Title.Pack.gbx",
+    "UpdateSourceTarget": "{{$FullRootDir}}Packs",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download Elite Title Pack To UserData",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://v4.live.maniaplanet.com/ingame/public/titles/download/SMStormElite@nadeolabs.Title.Pack.gbx",
+    "UpdateSourceTarget": "{{$FullRootDir}}UserData/Packs",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download Elite Title Pack To Packs",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://v4.live.maniaplanet.com/ingame/public/titles/download/SMStormElite@nadeolabs.Title.Pack.gbx",
+    "UpdateSourceTarget": "{{$FullRootDir}}Packs",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  }
+]

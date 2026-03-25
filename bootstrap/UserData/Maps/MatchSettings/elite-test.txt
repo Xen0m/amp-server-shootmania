@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<playlist>
+  <gameinfos>
+    <game_mode>0</game_mode>
+    <script_name>ShootMania\Elite\ElitePro.Script.txt</script_name>
+    <title>SMStormElite@nadeolabs</title>
+    <chat_time>10000</chat_time>
+    <finishtimeout>1</finishtimeout>
+    <allwarmupduration>0</allwarmupduration>
+    <disablerespawn>0</disablerespawn>
+    <forceshowallopponents>0</forceshowallopponents>
+  </gameinfos>
+
+  <hotseat>
+    <game_mode>0</game_mode>
+    <time_limit>300000</time_limit>
+    <rounds_count>5</rounds_count>
+  </hotseat>
+
+  <filter>
+    <is_lan>1</is_lan>
+    <is_internet>1</is_internet>
+    <is_solo>0</is_solo>
+    <is_hotseat>0</is_hotseat>
+    <sort_index>1000</sort_index>
+    <random_map_order>0</random_map_order>
+  </filter>
+
+  <mode_script_settings>
+    <setting name="S_MatchmakingMode" type="integer" value="0"/>
+    <setting name="S_MatchmakingRematchRatio" type="real" value="1.0"/>
+    <setting name="S_MatchmakingVoteForMap" type="boolean" value="1"/>
+    <setting name="S_MatchmakingProgressive" type="boolean" value="1"/>
+    <setting name="S_Mode" type="integer" value="1"/>
+    <setting name="S_WarmUpDuration" type="integer" value="0"/>
+    <setting name="S_MapWin" type="integer" value="1"/>
+    <setting name="S_QuickMode" type="boolean" value="1"/>
+    <setting name="S_NbPlayersPerTeamMax" type="integer" value="3"/>
+    <setting name="S_NbPlayersPerTeamMin" type="integer" value="2"/>
+  </mode_script_settings>
+
+  <startindex>0</startindex>
+
+  <!-- Replace these example paths with your real uploaded Elite maps -->
+  <map>
+    <file>My Maps\Elite\PUT-YOUR-FIRST-ELITE-MAP-HERE.Map.Gbx</file>
+  </map>
+</playlist>

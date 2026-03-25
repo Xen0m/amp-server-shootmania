@@ -1,0 +1,12 @@
+{
+  "id": "c53eaf1e-b932-4828-9b93-57fc067d9d0e",
+  "authors": [
+    "Xen0m",
+    "OpenAI Codex"
+  ],
+  "origin": "YOUR_GITHUB_REPO_GIT_URL",
+  "url": "YOUR_GITHUB_REPO_URL",
+  "imagefile": "",
+  "prefix": "xen0m-",
+  "repotype": "AppTemplates"
+}

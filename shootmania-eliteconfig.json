@@ -1,0 +1,53 @@
+[
+  {
+    "DisplayName": "Title Id",
+    "Category": "ShootMania Elite",
+    "Subcategory": "Runtime:shield:1",
+    "Description": "The ManiaPlanet title id to launch. For Elite, keep SMStormElite@nadeolabs unless you are using a custom title pack.",
+    "Keywords": "title,id,elite,maniaplanet,shootmania",
+    "FieldName": "TitleId",
+    "InputType": "text",
+    "ParamFieldName": "TitleId",
+    "DefaultValue": "SMStormElite@nadeolabs",
+    "Required": true,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Dedicated Config Path",
+    "Category": "ShootMania Elite",
+    "Subcategory": "Runtime:shield:1",
+    "Description": "Path to the dedicated_cfg file, relative to the instance root.",
+    "Keywords": "dedicated,cfg,config,path",
+    "FieldName": "DedicatedConfigPath",
+    "InputType": "text",
+    "ParamFieldName": "DedicatedConfigPath",
+    "DefaultValue": "UserData/Config/dedicated_cfg.txt",
+    "Required": true,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Match Settings Path",
+    "Category": "ShootMania Elite",
+    "Subcategory": "Runtime:shield:1",
+    "Description": "Path to the matchsettings file, relative to the instance root.",
+    "Keywords": "matchsettings,playlist,elite,path",
+    "FieldName": "MatchSettingsPath",
+    "InputType": "text",
+    "ParamFieldName": "MatchSettingsPath",
+    "DefaultValue": "UserData/Maps/MatchSettings/elite-test.txt",
+    "Required": true,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Custom Launch Args",
+    "Category": "ShootMania Elite",
+    "Subcategory": "Runtime:shield:1",
+    "Description": "Optional extra command-line arguments appended after the standard dedicated server launch arguments.",
+    "Keywords": "custom,args,command,line,extra",
+    "FieldName": "CustomArgs",
+    "InputType": "text",
+    "ParamFieldName": "CustomArgs",
+    "DefaultValue": "",
+    "EnumValues": {}
+  }
+]
