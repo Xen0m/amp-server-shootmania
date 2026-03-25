@@ -27,6 +27,7 @@ Meta.BreakingReleaseNotes=
 Meta.AppConfigId=bea2029f-ddbd-45a2-afee-f849299dd38a
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=True
+ConfigId=bea2029f-ddbd-45a2-afee-f849299dd38a
 App.DisplayName=ShootMania Elite Dedicated Server
 App.RootDir=./shootmania-elite/
 App.BaseDirectory=./shootmania-elite/
